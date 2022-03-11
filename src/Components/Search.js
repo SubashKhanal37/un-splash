@@ -12,7 +12,7 @@ class Search extends React.Component {
         return (<div className="ui segment">
             <form className="ui form" onSubmit={this.onFormSubmit}>
                 <div className="field">
-                    <label>Search for images</label>
+                    <label> Images Search</label>
                     <input type={"text"} value={this.state.term} onChange={e => this.setState({ term: e.target.value })} />
                 </div>
             </form >
